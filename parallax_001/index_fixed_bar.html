@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Andrew's Web Page</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <!--Let browser know website is optimized for mobile-->
+</head>
+
+<body>
+<div class="navbar-fixed">
+<nav>
+    <div class="nav-wrapper">
+        <div class="container">
+        <a href="#" class="brand-logo"><font color="#9FBCE0">Web Services</font></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="https://vk.com" target="_blank"><b><font color="9FBCE0">VK</font></b></a></li>
+            <li><a href="https://facebook.com" target="_blank"><b><font color="9FBCE0">Facebook</font></b></a></li>
+            <li><a href="https://twitter.com" target="_blank"><b><font color="9FBCE0">Twitter</font></b></a></li>
+            <li><a href="https://flickr.com" target="_blank"><b><font color="9FBCE0">Flickr</font></b></a></li>
+            <li><a class="modal-trigger" href="#modal1"><b><font color="9FBCE0">About</font></b></a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="https://vk.com">VK</a></li>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://flickr.com">Flickr</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col xl3 center-align">
+            <img src="img/vk.png" width="70" height="70" alt="">
+            <h4>VK</h4>
+            <p>ВКонтакте — это социальная сеть для быстрой и удобной коммуникации между людьми по всему миру. Задача
+                ВКонтакте — в каждый отдельно взятый момент оставаться наиболее современным, быстрым и эстетичным
+                способом общения в сети.</p>
+        </div>
+
+        <div class="col xl3 center-align">
+            <img src="img/facebook.png" width="70" height="70" alt="">
+            <h4>Facebook</h4>
+            <p>Facebook — крупнейшая социальная сеть в мире, которой владеет компания Facebook Inc.
+                Facebook является наиболее посещаемым веб-сайтом в мире. Месячная аудитория сети составляет
+                примерно 2 миллиарда человек.</p>
+        </div>
+
+        <div class="col xl3 center-align">
+            <img src="img/twitter.png" width="70" height="70" alt="">
+            <h4>Twitter</h4>
+            <p>Twitter — это платформа, на которой можно узнать, что происходит в мире прямо сейчас и что говорят
+                об этом люди. Если в мире что-то произошло, об этом пишут в Твиттере. Узнавайте в Twitter, о чем
+                говорят люди.</p>
+        </div>
+
+        <div class="col xl3 center-align">
+            <img src="img/flickr.png" width="70" height="70" alt="">
+            <h4>Flickr</h4>
+            <p>Flickr — almost certainly the best online photo management and sharing application in the world/
+                People make their photos available to the people who matter to them. Flickr enable new ways
+                of organizing photos and video</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Социальные сети</h4>
+        <p>Социальные сети являются средством публичной коммуникации между людьми, как инструмент влияния
+            на общественное мнение. В свете такого подхода важны активные пользователи — те, кто очевидным
+            образом проявляет свою позицию и выражает свое мнение путем размещения открытого контента
+            (публичных сообщений) в социальных медиа.</p>
+    </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+        </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="img/parallax1.jpg" alt="">
+    </div>
+</div>
+
+    <div class="section white">
+        <div class="row container">
+            <center><h1 class="header blue-grey-text">Социальные сети</h1></center>
+            <center><p class="blue-grey-text">Социальные сети являются средством публичной коммуникации
+                между людьми, как инструмент влияния на общественное мнение. В свете такого подхода важны активные
+                пользователи — те, кто очевидным образом проявляет свою позицию и выражает свое мнение путем размещения
+                открытого контента (публичных сообщений) в социальных медиа.</p>
+            </center>
+        </div>
+    </div>
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="img/parallax2.jpg" alt="">
+    </div>
+</div>
+
+<div id="footer">
+    <p align="center"><font size="2" color="black" face="Arial"><b>(C) 2017-2018 Andrew (Grodno, Belarus)</b></font></p>
+</div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+            $(".button-collapse").click(removeOverlay);
+            function removeOverlay() {
+                $("div[id^=sidenav-overlay]").remove();
+            }
+            $('.parallax').parallax();
+            $(".modal").modal({
+                dismissible:false,
+                opacity:0.8,
+                inDuration:400,
+                outDuration:400,
+                startingTop:'40%',
+            });
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+nav {
+    background: #678CB8;
+}
+
+body {
+    height: 1500px;
+}
+
+h4 {
+    color: #678CB8;
+}
+
+.col {
+    margin-top: 3%;
+    color: #00788D;
+}
+
+.parallax-container {
+	height: 300px;	
+}
+
+p {
+	text-align: center;
+  margin-top: 43px;
+}
