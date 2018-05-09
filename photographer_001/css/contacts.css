@@ -1,0 +1,239 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Kurale;
+    src: url(../fonts/Kurale.ttf);
+}
+
+body {
+    background: url("../img/background.png") fixed;
+    width: 1024px;
+    margin: 0 auto;
+    height: 666px;
+}
+
+.wrapper {
+    width: 1024px;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 79px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    margin: 0 auto;
+    background-color: rgba(159,138,59,0.9);
+    z-index: 1;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 15px 0;
+    list-style: none;
+    transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+
+.menu-item:hover {
+    background-color: rgba(159,138,59,1);
+}
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f4e4b0;
+    font-family: 'latoregular', 'sans-serif';
+    padding: 16px 20px;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kurale', 'sans-serif';
+    letter-spacing: 3px;
+    color: #9f8a3b;
+    text-shadow: 1px 1px 1px black, 0 0 1em gold;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #9f8a3b;
+    border: none;
+    box-shadow: 0 0 15px 2px #9f8a3b;
+    width: 1024px;
+    margin-top: 35px;
+}
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item {
+    color: gold;
+    list-style: none;
+    text-align: center;
+}
+
+.list-link {
+    color: #9f8a3b;
+    text-decoration: none;
+    font-family: 'Kurale', 'sans-serif';
+    font-size: 30px;
+}
+
+.list-link:hover {
+    text-shadow: 1px 1px 1px black, 0 0 1em gold;
+}
+
+.f-small {
+    width: auto;
+    margin-top: 85px;
+}
+
+.flex-container-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo-small {
+    width: 80px;
+    height: 80px;
+    transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -o-transition: 3s;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+}
+
+.flex-block-f .logo-small:hover {
+    transform: rotate3d(180,-45,0,-360deg);
+    box-shadow: 0 0 15px 2px #9f8a3b;
+}
+
+.f-text {
+    color: #9f8a3b;
+    font-family: 'latoregular', 'sans-serif';
+}
+
+.f-text:hover {
+    text-shadow: 1px 1px 1px black, 0 0 1em gold;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}
+
+.f-text-effect .f-text{
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        height: 400px;
+        width: 576px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: rgb(159,138,59);
+    }
+
+    h1 {
+        margin-top: 120px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .f-small {
+        width: 575px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 400px;
+        width: 576px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: rgb(159,138,59);
+    }
+
+    h1 {
+        margin-top: 120px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .f-small {
+        width: 575px;
+    }
+}
