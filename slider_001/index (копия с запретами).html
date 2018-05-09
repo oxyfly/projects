@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="ANDREW">
+	<meta name="description" content="Personal Web Page">
+	<meta name="viewport" content="width=device-width">
+	<title>Andrew | Personal Web Page</title>
+
+	<style type="text/css">
+		body {background-color: #000000}
+	</style>
+
+	<style>
+		a {
+			text-decoration: none;
+		}
+	</style>
+	
+	<link rel="shortcut icon" href="/home/andrew/www/slides/img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script language=JavaScript>
+      var message="Forbidden!";
+      function clickIE4(){
+      if (event.button==2){
+      alert(message);
+      return false;
+      }
+      }
+function clickNS4(e){
+      if (document.layers||document.getElementById&&!document.all){
+      if (e.which==2||e.which==3){
+      alert(message);
+      return false;
+      }
+      }
+      }
+if (document.layers){
+      document.captureEvents(Event.MOUSEDOWN);
+      document.onmousedown=clickNS4;
+      }
+      else if (document.all&&!document.getElementById){
+      document.onmousedown=clickIE4;
+      }
+document.oncontextmenu=new Function("alert(message);return false")
+      </script>
+</head>
+
+<body>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/1.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://vk.com/oxyfly" target="_blank"><font color="#8AC2BD" face="Arial">VK (Primary)<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/2.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://vk.com/oxy_blade" target="_blank"><font color="#8AC2BD" face="Arial">VK (Secondary)<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/3.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://facebook.com/oxyblade" target="_blank"><font color="#8AC2BD" face="Arial">Facebook<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/4.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://twitter.com/foroxygen" target="_blank"><font color="#8AC2BD" face="Arial">Twitter<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/5.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://flickr.com/photos/126544067@N06" target="_blank"><font color="#8AC2BD" face="Arial">Flickr<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/6.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://oxyblade.tumblr.com" target="_blank"><font color="#8AC2BD" face="Arial">Tumblr<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/7.jpg" style="width: 100%" alt="">
+			<div class="text"><a href="https://ok.ru/oxyfly" target="_blank"><font color="#8AC2BD" face="Arial">Одноклассники<font></a></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/8.jpg" style="width: 100%" alt="">
+			<div class="text">E-mail: oxyblade@gmail.com (Primary)</div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+		<a class="next" onclick="plusSlides(1)">&#10095</a>
+	</div>
+	
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+		<span class="dot" onclick="currentSlide(6)"></span>
+		<span class="dot" onclick="currentSlide(7)"></span>
+		<span class="dot" onclick="currentSlide(8)"></span>
+	</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+	<div id="footer">
+    	<p align="center"><font size="4" color="#48D1CC" face="Arial">(C) 2017 Andrew (Grodno, Belarus)</font></p>
+    </div>
+
+</body>
+</html>
