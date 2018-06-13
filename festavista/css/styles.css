@@ -138,10 +138,10 @@ li {
   flex-flow: row wrap;
   justify-content: center;
   background-color: #3c3c2e;
-  height: 700px;
+  height: 970px;
   width: 100%;
   margin: 0 auto;
-  padding: 101px 0;
+  padding-top: 80px;
 }
 
 .img-size {
@@ -239,6 +239,53 @@ h3 {
 }
 
 /*---------------------Media queries--------------------------*/
+@media screen and (max-width: 1024px) { /* разрешение планшета */
+
+  .wrapper-1, .wrapper-2 {
+    width: 1024px;
+  }
+
+  nav {
+    position: absolute;
+  }
+
+  .logo {
+    padding-bottom: 40px;
+  }
+
+  .logo-pos {
+    position: relative;
+    left: 430px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  ul {
+    margin-right: 121px;
+  }
+
+  .nav-link {
+    color: #a4a4a4;
+  }
+
+  .container-header {
+    width: 1024px;
+  }
+
+  .container-gallery {
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+  }
+
+  .flex-footer {
+    justify-content: inherit;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .wrapper-1, .wrapper-2 {
@@ -263,11 +310,13 @@ h3 {
   }
 
   .container-header {
-    width: 768px;
+    width: 753px;
   }
 
   .container-gallery {
-    height: 1100px;
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
   }
 
   .flex-footer {
@@ -278,8 +327,9 @@ h3 {
 
 @media screen and (max-width: 576px) {
 
-  header, .wrapper-1, .wrapper-2 {
+  .wrapper-1, .wrapper-2 {
     width: 576px;
+    margin-right: 0;
   }
 
   nav {
@@ -292,19 +342,24 @@ h3 {
 
   .logo-pos {
     position: relative;
-    left: 170px;
+    left: 0;
   }
 
   .nav-link {
     color: #a4a4a4;
   }
 
-  .container-header {
-    width: 576px;
+  .make-up-about-h2 {
+    font-size: 45px;
+  }
+
+  .flex-text-p {
+    padding-right: 50px;
   }
 
   .container-info {
-    height: 770px;
+    max-width: 100%;
+    height: auto;
   }
 
   .container-gallery {
