@@ -1,0 +1,13 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background: #455a64;;
+  height: 400px;
+}
+
+
