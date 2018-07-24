@@ -9,16 +9,35 @@ header {
   background-image: url("img/header_img.jpg");
   background-size: cover;
   width: auto;
+  height: 680px;
+}
+
+.header-text {
+  color: #586c7a;
+  font-size: 84px;
+  position: relative;
+  top: 40%;
+  text-shadow: 4px 4px 4px black, 0 0 1em #000000;
+}
+
+.cover {
+  /*background: #698c96;*/
+  margin: 5px;
+  width: 400px;
   height: 400px;
+  max-width: 400px;
+  max-height: 400px;
+  background-image: url("img/covers/001.jpg");
+  background-size: cover;
 }
 
-h1 {
-  padding-top: 20px;
-  color: #698c96;
-  font-size: 48px;
+.img_001 {
+  width: 400px;
+  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
-.cage {
-  padding: 100px;
-  background: #698c96;
+.cover-bg {
+  background: #242d37;
 }
