@@ -6,8 +6,19 @@
 
 header {
   text-align: center;
-  background: #455a64;;
+  background-image: url("img/header_img.jpg");
+  background-size: cover;
+  width: auto;
   height: 400px;
 }
 
+h1 {
+  padding-top: 20px;
+  color: #698c96;
+  font-size: 48px;
+}
 
+.cage {
+  padding: 100px;
+  background: #698c96;
+}
