@@ -26,7 +26,7 @@ app.get('/api/albums/:id', (req, res) => {
   let reqId = req.params.id;
   let result;
   data.map((dat) => {
-    if(dat.id == reqId){
+    if(dat.id === reqId){
       result = dat;
     }/*else{
       result = {status: 'Error'}

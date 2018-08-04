@@ -20,5 +20,4 @@ export class AlbumComponent implements OnInit {
   openAlbum(id) {
     this.route.navigate(['/album/' + id]);
   }
-
 }
