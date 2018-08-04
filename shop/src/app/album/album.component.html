@@ -1,0 +1,14 @@
+<a href="#">
+  <img class="img_001" [src]="album.img" title="Cover" alt="Image">
+</a>
+<h5 class="info">Description:</h5>
+<ul class="item-list">
+  <li class="info-item"><span class="item-name-bold">Artist:</span><span class="item-name-light"> {{album.artist}}</span></li>
+  <li class="info-item"><span class="item-name-bold">Title:</span><span class="item-name-light"> {{album.title}}</span></li>
+  <li class="info-item"><span class="item-name-bold">Genre:</span><span class="item-name-light"> {{album.genre}}</span></li>
+  <li class="info-item"><span class="item-name-bold">Year:</span><span class="item-name-light"> {{album.year}}</span></li>
+  <li class="info-item"><span class="item-name-bold">Tracks:</span><span class="item-name-light"> {{album.tracks}}</span></li>
+  <li class="info-item"><span class="item-name-bold">Size:</span><span class="item-name-light"> {{album.size}}</span></li>
+</ul>
+<hr>
+<button type="button" class="btn btn-secondary" (click)="openAlbum(album.id)">More Information</button>
