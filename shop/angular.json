@@ -127,5 +127,10 @@
       }
     }
   },
-  "defaultProject": "shop"
+  "defaultProject": "shop",
+  "cli": {
+    "warnings": {
+      "typescriptMismatch": false
+    }
+  }
 }
