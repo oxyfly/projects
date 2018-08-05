@@ -1,3 +1,17 @@
-<p>
-  album-detail works!!!
-</p>
+<div class="container-fluid">
+  <div class="row title-block">
+    <div class="col line-top-block">
+      <hr class="line-top">
+      <h1 class="album-name">Menno De Jong – In Trance We Trust 022</h1>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row content-block justify-content-center">
+    <div class="col cover" *ngFor="let album of albums">
+      <app-album [album]="album"></app-album>
+    </div>
+  </div>
+</div>

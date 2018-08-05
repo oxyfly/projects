@@ -51,8 +51,8 @@ hr {
 }
 
 .line-top-block {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 /*CONTENT BLOCK*/
@@ -135,8 +135,8 @@ hr {
 /*FOOTER*/
 .footer-line {
   background: #242d37;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .footer {
@@ -169,7 +169,6 @@ hr {
 }
 
 /*SCROLLBAR*/
-
 ::-webkit-scrollbar {
   width: 10px;
 }

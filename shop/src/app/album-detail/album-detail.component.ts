@@ -17,7 +17,6 @@ export class AlbumDetailComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('перешел на роутер', this.albumId);
+    console.log('Перешел на роутер', this.albumId); // for me
   }
-
 }

@@ -1,0 +1,8 @@
+/*ALBUM*/
+.album-name {
+  color: #677e9a;
+  text-align: center;
+  padding-top: 28px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 1em #677e9a;
+}
