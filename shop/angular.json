@@ -127,14 +127,5 @@
       }
     }
   },
-<<<<<<< HEAD
   "defaultProject": "my-app"
-=======
-  "defaultProject": "shop",
-  "cli": {
-    "warnings": {
-      "typescriptMismatch": false
-    }
-  }
->>>>>>> ab13e9cf6bfbd67799635a071a4ef25875288f49
 }
