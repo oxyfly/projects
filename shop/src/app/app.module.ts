@@ -7,13 +7,15 @@ import { AlbumComponent } from './album/album.component';
 import {HttpClientModule} from '@angular/common/http';
 import {AppRoutingModule} from './app-routing.module';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
+import { JqueryComponent } from './jquery/jquery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlbumsComponent,
     AlbumDetailComponent,
-    AlbumComponent
+    AlbumComponent,
+    JqueryComponent
   ],
   imports: [
     BrowserModule,

@@ -18,7 +18,7 @@ const data = [
   {id: 11, artist: 'Menno De Jong', title: 'In Trance We Trust 022', genre: 'Trance, Progressive', year: 2018, tracks: 17, size: '452 Mb', img: 'assets/img/covers/001.jpg'}
 ];
 
-const list = [
+/*const list = [
   {id: 0, track: '1. GMO – Forty-Two [Metronome Remix] (09:33)'},
   {id: 1, track: '2. Paul Oakenfold – Full Moon Party [Liquid Soul & Zyce Remix] (07:44)'},
   {id: 2, track: '3. Menno De Jong – Ananda [Extended Mix] (07:14)'},
@@ -36,15 +36,15 @@ const list = [
   {id: 14, track: '15. Talla 2xlc – Uprising (07:06)'},
   {id: 15, track: '16. Menno De Jong, Adam Ellis & Kate Louise Smith – Set to Sail [2018 Outro Edit] (04:42)'},
   {id: 16, track: '17. Menno De Jong – In Trance We Trust 022 [Continuous Mix] (01:18:08)'}
-];
+];*/
 
 app.get('/api/albums', (req, res) => {
 res.send(data);
 });
 
-app.get('/api/album-detail', (req, res) => {
+/*app.get('/api/album-detail', (req, res) => {
   res.send(list);
-});
+});*/
 
 
 app.get('/api/albums/:id', (req, res) => {
@@ -60,18 +60,18 @@ app.get('/api/albums/:id', (req, res) => {
   res.send(result);
 });
 
-app.get('/api/album-detail/:id', (req, res) => {
+/*app.get('/api/album-detail/:id', (req, res) => {
   let reqId = req.params.id;
   let result;
   list.map((dat) => {
     if(dat.id === reqId){
       result = dat;
-    }/*else{
+    }/!*else{
       result = {status: 'Error'}
-    }*/
+    }*!/
   });
   res.send(result);
-});
+});*/
 
 app.listen(8585);
 
