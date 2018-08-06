@@ -19,17 +19,13 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.png",
+              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/bootstrap/dist/css/bootstrap-grid.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -127,14 +123,5 @@
       }
     }
   },
-<<<<<<< HEAD
   "defaultProject": "my-app"
-=======
-  "defaultProject": "shop",
-  "cli": {
-    "warnings": {
-      "typescriptMismatch": false
-    }
-  }
->>>>>>> ab13e9cf6bfbd67799635a071a4ef25875288f49
 }
