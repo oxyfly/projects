@@ -13,7 +13,6 @@ export class AlbumComponent implements OnInit {
   constructor(private route: Router) {
   }
 
-
   ngOnInit() {
   }
 
