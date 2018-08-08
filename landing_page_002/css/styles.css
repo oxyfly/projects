@@ -519,3 +519,16 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #353a44;
 }
+
+/*  MEDIA QUERIES */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 440px;
+  }
+
+  .catalog-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
