@@ -189,20 +189,20 @@
       <div class="container">
         <form>
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name">
+          <input type="text" id="fname" name="firstname" placeholder="Your name" required>
 
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
 
           <label for="country">Country</label>
-          <select id="country" name="country">
+          <select id="country" name="country" required>
             <option value="australia">Belarus</option>
             <option value="canada">Russia</option>
             <option value="usa">Ukraine</option>
           </select>
 
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px" required></textarea>
           <input id="btn" type="submit" value="Submit" onclick="button()">
         </form>
       </div>
