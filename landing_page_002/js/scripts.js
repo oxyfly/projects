@@ -10,13 +10,13 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
-      $('.footer').fadeIn();
+      $('.arrow').fadeIn();
     } else {
-      $('.footer').fadeOut();
+      $('.arrow').fadeOut();
     }
   });
 
-  $('.footer').click(function(){
+  $('.arrow').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
     return false;
   });
