@@ -46,7 +46,7 @@ body {
 
 /* HEADER */
 .wrapper header {
-  width: 100%;
+  /*width: 100%;*/
   padding: 0;
   margin: 0;
   text-align: center;
@@ -221,4 +221,23 @@ body {
   margin-top: 10px;
   opacity: 0;
   text-align: center;
+}
+
+/*  MEDIA QUERY */
+@media only screen and (max-width: 768px) {
+  .wrapper header > h1 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 637px) {
+  .wrapper header > h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .wrapper header > h1 {
+    font-size: 2em;
+  }
 }
