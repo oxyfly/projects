@@ -1,7 +1,9 @@
 'use strict';
 
 $(document).ready(function() {
-  let current_delay = 500;
+  $('body').hide().fadeIn(3000);
+
+  let current_delay = 1000;
   $("#title").css("opacity", 0).animate({
     opacity: 1
   }, 1000);
@@ -30,6 +32,18 @@ $(document).ready(function() {
     console.log('callback - particles-js config loaded');
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 document.ondragstart = noSelect;
 document.oncontextmenu = noSelect;
