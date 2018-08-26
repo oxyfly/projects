@@ -19,12 +19,12 @@ $(document).ready(function() {
     }).delay(current_delay).animate({
       opacity: 1,
       top: 0
-    }, 100);
+    }, 0);
   });
   current_delay += 800;
   $("#footer").delay(current_delay).css("opacity", 0).animate({
     opacity: 1
-  }, 1000);
+  }, 3000);
   $("#rights").delay(current_delay).css("opacity", 0).animate({
     opacity: 1
   }, 3000);
