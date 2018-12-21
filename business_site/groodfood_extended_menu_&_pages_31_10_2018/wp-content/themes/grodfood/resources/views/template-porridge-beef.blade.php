@@ -1,0 +1,103 @@
+{{--
+  Template Name: Porridge-beef Template
+--}}
+
+@extends('layouts.app')
+@section('content')
+    @while(have_posts()) @php the_post() @endphp
+    <section class="ornament ornament-top">
+        <img src="/wp-content/themes/grodfood/dist/images/misc/ornament.png" alt="Image">
+    </section>
+    <nav aria-label="breadcrumb" class="breadcrumbs">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active"><a href="/catalog">Каталог</a></li>
+            <li class="breadcrumb-item"><a href="/porridge-page">Каши</a></li>
+            <li class="breadcrumb-item"><a href="/porridge-beef">С говядиной</a></li>
+        </ol>
+    </nav>
+    <section class="porridge-product-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-6">
+                    <div class="porridge-product-block-1">
+                        <div class="porridge-product-img">
+                            <img src="/wp-content/themes/grodfood/dist/images/product-pot/porridge-beef/001.jpg"
+                                 alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6">
+                    <div class="porridge-product-block-1">
+                        <h3>Гречневая по-белорусски</h3>
+                        <ul class="porridge-product-description-1">
+                            <li>Состав: говядина, крупа гречневая, вода питьевая, лук сушеный, соль йодированная, перец
+                                черный молотый.
+                            </li>
+                            <li>Массовая доля мяса по закладке: 37,7%</li>
+                            <li>Масса нетто, г: 340</li>
+                            <li>Количество штук в упаковке: 10</li>
+                            <li>Количество упаковок на паллете: 150</li>
+                            <li>Срок годности: 2 года</li>
+                            <li>Крышка: ключ easy-open</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6">
+                    <div class="porridge-product-block-1">
+                        <div class="porridge-product-img">
+                            <img src="/wp-content/themes/grodfood/dist/images/product-pot/porridge-beef/002.jpg"
+                                 alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6">
+                    <div class="porridge-product-block-1">
+                        <h3>Перловая по-белорусски</h3>
+                        <ul class="porridge-product-description-1">
+                            <li>Состав: говядина, крупа перловая, вода питьевая, лук сушеный, соль йодированная, перец
+                                черный молотый.
+                            </li>
+                            <li>Массовая доля мяса по закладке: 37,7%</li>
+                            <li>Масса нетто, г: 340</li>
+                            <li>Количество штук в упаковке: 10</li>
+                            <li>Количество упаковок на паллете: 150</li>
+                            <li>Срок годности: 2 года</li>
+                            <li>Крышка: ключ easy-open</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6">
+                    <div class="porridge-product-block-1">
+                        <div class="porridge-product-img">
+                            <img src="/wp-content/themes/grodfood/dist/images/product-pot/porridge-beef/003.jpg"
+                                 alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6">
+                    <div class="porridge-product-block-1">
+                        <h3>Рисовая по-белорусски</h3>
+                        <ul class="porridge-product-description-1">
+                            <li>Состав: говядина, крупа рисовая, вода питьевая, лук сушеный, соль йодированная, перец
+                                черный молотый.
+                            </li>
+                            <li>Массовая доля мяса по закладке: 37,7%</li>
+                            <li>Масса нетто, г: 340</li>
+                            <li>Количество штук в упаковке: 10</li>
+                            <li>Количество упаковок на паллете: 150</li>
+                            <li>Срок годности: 2 года</li>
+                            <li>Крышка: ключ easy-open</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ornament">
+        <img src="/wp-content/themes/grodfood/dist/images/misc/ornament.png" alt="Image">
+    </section>
+    <section class="footer-img">
+        <img src="/wp-content/themes/grodfood/dist/images/misc/footer-img.jpg" alt="Image">
+    </section>
+    @endwhile
+@endsection
