@@ -1,0 +1,39 @@
+@import "./variables";
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/ProximaNova-Light.ttf") format('truetype');
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/ProximaNova-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/Merriweather-Regular.ttf") format('truetype');
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/Merriweather-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/FiraSansCondensed-Regular.ttf") format('truetype');
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/FiraSansCondensed-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/YesevaOne-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/wp-content/themes/grodfood/resources/assets/fonts/Lora-Regular.ttf") format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  top: -5rem !important;
+}
