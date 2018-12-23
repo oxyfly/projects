@@ -33,18 +33,6 @@ $(document).ready(function() {
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
 document.ondragstart = noSelect;
 document.oncontextmenu = noSelect;
 document.onselectstart = noSelect;
