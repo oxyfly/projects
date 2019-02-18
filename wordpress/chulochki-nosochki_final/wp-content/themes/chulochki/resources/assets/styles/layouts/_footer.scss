@@ -1,0 +1,453 @@
+.footer-row a {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.footer-row a:hover {
+  text-decoration: none;
+}
+
+//FOOTER
+.content-info {
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -7rem;
+}
+
+.footer-row {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.footer-contacts {
+  position: relative;
+  top: 3.2rem;
+}
+
+.footer-contact {
+  text-align: center;
+  margin-top: 0.66rem;
+}
+
+.footer-contact-phone {
+  margin-left: -5.6rem;
+}
+
+.footer-row .footer-contact p {
+  width: 200px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.footer-contact-address {
+  margin-left: 2rem;
+}
+
+.footer-contact-address-2 {
+  margin-left: 5rem;
+}
+
+.footer-contact-social-wrap {
+  margin-left: 14.4rem;
+  margin-top: 0.4rem;
+  max-width: 30px;
+}
+
+.footer-contact-social-wrap img {
+  min-width: 30px;
+}
+
+.footer-logo-wrap,
+.footer-logo {
+  width: 165px;
+  height: 48px;
+}
+
+.footer-logo-wrap-pos {
+  margin-left: -1.6rem;
+}
+
+/* .footer-wrap .footer-row .footer-contact-address::before {
+background-image: url("/wp-content/themes/chulochki/dist/images/icons/locate.svg");
+background-position: top center;
+position: absolute;
+content: '';
+top: 1.55em;
+left: 3.3rem;
+width: 25px;
+height: 25px;
+background-repeat: no-repeat;
+}
+
+.footer-wrap .footer-row .footer-contact-address-2::before {
+background-image: url("/wp-content/themes/chulochki/dist/images/icons/locate.svg");
+background-position: top center;
+position: absolute;
+content: '';
+top: 3.5rem;
+left: 3.3rem;
+width: 25px;
+height: 25px;
+background-repeat: no-repeat;
+} */
+
+.footer-wrap .footer-row .footer-contact-address-fhd::before {
+  left: 5.5rem;
+}
+
+.footer-wrap .footer-row .footer-contact-phone::before {
+  background-image: url("/wp-content/themes/chulochki/dist/images/icons/phone.svg");
+  background-position: top center;
+  position: absolute;
+  content: '';
+  top: 0.9rem;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+}
+
+/* .footer-wrap .footer-row .footer-contact-phone:nth-child(2)::before {
+  background-image: url("/wp-content/themes/chulochki/dist/images/icons/velcom.svg");
+  top: 2.6rem;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-wrap .footer-row .footer-contact-phone:nth-child(3)::before {
+  background-image: url("/wp-content/themes/chulochki/dist/images/icons/mts.svg");
+  top: 4.2rem;
+} */
+
+.footer-lowest {
+  max-width: 1110px;
+  min-height: 85px;
+  top: 0.5rem;
+  position: relative;
+  background: #303030;
+  background: -moz-linear-gradient(bottom, #000 0%, #303030 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #000), color-stop(100%, #303030));
+  background: -webkit-linear-gradient(bottom, #000 0%, #303030 100%);
+  background: -o-linear-gradient(bottom, #000 0%, #303030 100%);
+  background: -ms-linear-gradient(bottom, #000 0%, #303030 100%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.woocommerce img,
+.woocommerce-page img {
+  height: auto;
+  max-width: 100%;
+}
+
+.footer-lowest-text {
+  font-family: "Fira Code", sans-serif;
+  font-size: 9px;
+  margin-top: 1.7rem;
+  color: white;
+}
+
+.sdry-logo-wrap {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.sdry-logo-img {
+  width: 48px;
+  height: 75px;
+  float: right;
+  transition: 1.5s;
+}
+
+.sdry-logo-img:hover {
+  transform: scale(1.1);
+}
+
+.footer-contact-social {
+  padding-left: 5px;
+}
+
+.arrow-top {
+  display: none;
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow-top:hover {
+  filter: brightness(150%);
+}
+
+// LINES
+.footer-line-top {
+  margin-top: 5rem;
+  margin-bottom: -2rem;
+}
+
+.footer-line-bottom {
+  margin-top: 3rem;
+}
+
+.footer-line-top,
+.footer-line-bottom {
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.footer-line-top-pos {
+  margin-top: 4rem;
+  margin-bottom: -2.5rem;
+}
+
+.footer-line-bottom-pos {
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+#comments {
+  display: none;
+}
+
+// MEDIA QUERY
+@media screen and (max-width: 1675px) {
+  .inst-wrapper {
+    width: 1312px;
+    height: 350px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .col-send-form {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1435px) {
+  .col-send-form {
+    margin-left: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .form-footer::after {
+    right: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 1464px) {
+  .inst-wrapper {
+    width: 1300px;
+    height: 350px;
+    justify-content: space-evenly;
+  }
+
+  .col-send-form {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  .footer-logo-wrap {
+    margin-left: -1.7rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .footer-lowest-text {
+    margin-left: 0;
+  }
+
+  .main-logo {
+    margin-right: 12rem;
+  }
+
+  .footer-contact,
+  .footer-row p {
+    margin-top: 1rem;
+  }
+
+  .footer-contact-social-wrap {
+    margin-left: 14.6rem !important;
+    margin-top: 0.5rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address::before {
+    top: 1.5em;
+    left: 3.8rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address-2::before {
+    top: 4.2em;
+    left: 3.8rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-phone::before {
+    top: 1.2em;
+    left: 1rem;
+  }
+
+  /*  .footer-wrap .footer-row .footer-contact-phone:nth-child(2)::before {
+    top: 3.1rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-phone:nth-child(3)::before {
+    top: 4.7rem;
+  } */
+
+  .footer-contact-address {
+    margin-left: 2rem;
+  }
+
+  .footer-contact-address-2 {
+    margin-left: 1rem;
+  }
+
+  .footer-contact {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-row p {
+    width: auto;
+  }
+
+  .product-page {
+    max-height: 1032px;
+  }
+
+  .footer-logo-wrap {
+    margin: 1rem auto;
+  }
+
+  .footer-contact-social {
+    padding-left: 0;
+  }
+
+  .footer-logo-link {
+    max-width: 198px;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address::before {
+    left: 10.7rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address-2::before {
+    left: 10.72rem;
+  }
+
+  .footer-contact-social-wrap {
+    margin-top: 1.4rem;
+  }
+
+  .footer-contact-phones {
+    margin: 0 auto;
+    line-height: 3.5rem;
+  }
+
+  .footer-contact-phone {
+    margin-left: 0;
+  }
+
+  .footer-line-bottom-pos {
+    top: 0.3em;
+    margin-top: 4.5rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-phone::before {
+    display: none;
+  }
+
+  /*  .footer-wrap .footer-row .footer-contact-phone:nth-child(2)::before {
+    top: 1.9rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-phone:nth-child(3)::before {
+    top: 3.4rem;
+  } */
+}
+
+@media screen and (max-width: 991px) {
+  .footer-wrap .footer-row .footer-contact-address::before {
+    left: 9.3rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address-2::before {
+    left: 9.72rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .footer-lowest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-logo {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-row p {
+    margin-left: -6rem;
+  }
+
+  .footer-contact-social-wrap {
+    margin: 1rem auto 0 !important;
+  }
+
+  .footer-wrap .footer-row .footer-contact-phone::before {
+    top: 0.3em;
+    left: 21.5rem;
+  }
+
+  /*  .footer-wrap .footer-row .footer-contact-address-1::before {
+    left: 19rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address-2::before {
+    left: 20rem;
+  } */
+
+  .footer-lowest-text {
+    margin: 1rem auto 0 auto;
+    width: 345px;
+    max-height: 52px;
+    text-align: center;
+  }
+
+  .sdry-logo-wrap {
+    width: 48px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .footer-row p {
+    margin-left: 9rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address-1::before {
+    left: 9rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-address-2::before {
+    left: 10rem;
+  }
+
+  .footer-wrap .footer-row .footer-contact-phone::before {
+    left: 9.2rem;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .footer-lowest-text {
+    width: 335px;
+  }
+}

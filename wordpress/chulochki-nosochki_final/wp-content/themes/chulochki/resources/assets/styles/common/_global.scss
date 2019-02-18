@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/Roboto-Light.ttf") format('truetype');
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/RobotoSlab-Regular.ttf") format('truetype');
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/RobotoSlab-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/ProximaNova-Regular.ttf") format('truetype');
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/ProximaNova-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/FiraSansCondensed-Regular.ttf") format('truetype');
+  src: url("/wp-content/themes/chulochki/resources/assets/fonts/FiraSansCondensed-Bold.ttf") format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main {
+  min-height: 500px;
+}
