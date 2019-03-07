@@ -1,0 +1,897 @@
+// block-1
+.block-1 {
+  height: 1040px;
+  width: 100%;
+  //background-color: #232323;
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/top.png) no-repeat 50% 0;
+  background-size: inherit;
+  margin-top: -4.3rem;
+  overflow-x: hidden;
+}
+
+.block-1-wrap {
+  position: relative;
+}
+
+.block-1-title-wrap {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
+.block-1-title-first-row,
+.block-3-title-first-row,
+.block-1-title-second-row,
+.block-3-title-second-row,
+.block-3-title-third-row,
+.block-1-title-third-row {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.block-1-title-first-row,
+.block-3-title-first-row {
+  color: #bb8432;
+}
+
+.block-1-title-second-row,
+.block-3-title-second-row {
+  font-size: 0.9rem;
+}
+
+.block-1-title-third-row,
+.block-3-title-third-row {
+  font-size: 2.4rem;
+}
+
+.block-3-title-third-row {
+  margin-left: 7rem;
+}
+
+.vegetables {
+  position: absolute;
+}
+
+.vegetable-1 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/001.png) no-repeat 50% 50%;
+  width: 116px;
+  height: 264px;
+  background-size: cover;
+  left: 0;
+}
+
+.vegetable-2 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/002.png) no-repeat 50% 50%;
+  //width: 255px;
+  width: 100%;
+  background-size: contain;
+  height: 252px;
+  //background-size: cover;
+  top: 15rem;
+  left: -6rem;
+}
+
+.vegetable-3 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/003.png) no-repeat 50% 50%;
+  //width: 193px;
+  width: 100%;
+  background-size: contain;
+  height: 155px;
+  //background-size: cover;
+  top: -1rem;
+  left: -12rem;
+}
+
+.vegetable-4 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/004.png) no-repeat 50% 50%;
+  //width: 432px;
+  width: 100%;
+  background-size: contain;
+  height: 341px;
+  //background-size: cover;
+  top: 12rem;
+  left: -9rem;
+}
+
+.vegetable-5 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/005.png) no-repeat 50% 50%;
+  //width: 271px;
+  width: 100%;
+  background-size: contain;
+  height: 253px;
+  //background-size: cover;
+  top: 3rem;
+  left: 6rem;
+}
+
+.vegetable-6 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/006.png) no-repeat 50% 50%;
+  //width: 165px;
+  width: 100%;
+  background-size: contain;
+  height: 118px;
+  //background-size: cover;
+  left: 2rem;
+  top: 5rem;
+}
+
+.vegetable-7 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/007.png) no-repeat 50% 50%;
+  //width: 349px;
+  width: 100%;
+  background-size: contain;
+  height: 298px;
+  //background-size: cover;
+  top: 16rem;
+  left: -6rem;
+}
+
+.vegetable-8 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/008.png) no-repeat 50% 50%;
+  //width: 213px;
+  width: 100%;
+  background-size: contain;
+  height: 158px;
+  //background-size: cover;
+  top: 21rem;
+  left: -5rem;
+  z-index: 20;
+}
+
+.vegetable-pot-left {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/pot-1.png) no-repeat 50% 50%;
+  //width: 292px;
+  width: 100%;
+  background-size: contain;
+  height: 379px;
+  //background-size: cover;
+  left: -1rem;
+}
+
+.vegetable-pot-right {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/pot-2.png) no-repeat 50% 50%;
+  //width: 366px;
+  width: 100%;
+  background-size: contain;
+  height: 448px;
+  //background-size: cover;
+  top: 6rem;
+  left: 11.5rem;
+  z-index: 20;
+}
+
+.vegetable-9 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/009.png) no-repeat 50% 50%;
+  //width: 255px;
+  width: 100%;
+  background-size: contain;
+  height: 252px;
+  //background-size: cover;
+  z-index: 15;
+  left: 4rem;
+  top: 6rem;
+}
+
+.vegetable-10 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/010.png) no-repeat 50% 50%;
+  //width: 484px;
+  width: 100%;
+  background-size: contain;
+  height: 320px;
+  //background-size: cover;
+  top: 16rem;
+  left: 3.5rem;
+}
+
+.vegetable-11 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/011.png) no-repeat 50% 50%;
+  //width: 256px;
+  width: 100%;
+  background-size: contain;
+  height: 265px;
+  //background-size: cover;
+  right: -4rem;
+}
+
+.vegetable-12 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-1/images/vegetables/012.png) no-repeat 50% 50%;
+  //width: 186px;
+  width: 100%;
+  background-size: contain;
+  height: 177px;
+  //background-size: cover;
+  top: 23rem;
+  left: 4.2rem;
+}
+
+//.vegetable-animate-2 {
+//  animation: swing 10s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+//}
+
+.vegetable-animate-3 {
+  animation: swing 7s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+//.vegetable-animate-4 {
+//  animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+//}
+
+.vegetable-animate-5 {
+  animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.vegetable-animate-6 {
+  animation: swing 6s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.vegetable-animate-7 {
+  animation: swing 5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.vegetable-animate-8 {
+  animation: swing 9s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.vegetable-animate-9 {
+  animation: swing 5.6s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+//.vegetable-animate-10 {
+//  animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+//}
+//
+//.vegetable-animate-11 {
+//  animation: swing 10s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+//}
+//
+//.vegetable-animate-12 {
+//  animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+//}
+
+@keyframes swing {
+  0% {
+    transform: rotateZ(6deg) translateY(10px);
+  }
+
+  100% {
+    transform: rotateZ(-6deg) translateY(-10px);
+  }
+}
+
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(6deg) translateY(10px);
+    transform: rotateZ(6deg) translateY(10px);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(-6deg) translateY(-10px);
+    transform: rotateZ(-6deg) translateY(-10px);
+  }
+}
+
+// block-2
+.block-2 {
+  height: 1236px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  //background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/bg.png) no-repeat 50% 50%;
+  //background-size: contain;
+  //background-color: #252525;
+}
+
+.block-2-wrap-about {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/block-2-wrap-about.png) no-repeat 50% 50%;
+  width: 100%;
+  height: 481px;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.block-2-title-about,
+.block-2-title-advantage {
+  color: #bb8432;
+  text-align: left;
+  text-transform: uppercase;
+  max-width: 1142px;
+  margin: 0 auto 2rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border: 1px solid #bb8432;
+  border-radius: 6px;
+}
+
+.block-2-about-description {
+  color: white;
+  font-size: 1rem;
+}
+
+.block-2-about-col-7-img {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/block-2-about-col-7-img.png) no-repeat 50% 50%;
+  background-size: cover;
+  width: 430px;
+  height: 353px;
+  position: absolute;
+  top: 9rem;
+}
+
+.block-2-wrap-advantage {
+  margin-top: 10rem;
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/block-2-wrap-advantage.png) no-repeat 50% 50%;
+  width: 100%;
+  height: 566px;
+}
+
+.block-2-advantage-col-left-img-left {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/pot-1.png) no-repeat 50% 50%;
+  background-size: cover;
+  width: 184px;
+  height: 238px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.block-2-advantage-col-left-img-right {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/pot-2.png) no-repeat 50% 50%;
+  background-size: cover;
+  width: 231px;
+  height: 281px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: -19rem;
+  top: 3.3rem;
+}
+
+.block-2-advantage-col-left-img-leafs {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-2/leafs.png) no-repeat 50% 50%;
+  background-size: cover;
+  width: 213px;
+  height: 158px;
+  position: absolute;
+  right: -5rem;
+  top: 14rem;
+  z-index: -10;
+}
+
+.block-2-description-advantage-wrap {
+  margin-top: 2rem;
+}
+
+.block-2-description-advantage {
+  max-width: 21rem;
+  color: white;
+  font-style: oblique;
+  text-align: center;
+  border: 1px solid #bb8432;
+  border-radius: 6px;
+}
+
+// block-3
+.block-3 {
+  position: relative;
+  min-height: 1600px;
+  padding-top: 2rem;
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/block-3-footer-bg.png) no-repeat 50% 100%;
+  background-size: inherit;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.block-3-title-wrap {
+  position: relative;
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/block-3-title-wrap-img.png) no-repeat 3%;
+  background-size: contain;
+  width: 747px;
+  height: 11rem;
+  margin: 0 auto;
+}
+
+.block-3-title-first-row,
+.block-3-title-second-row {
+  margin-left: -7rem;
+}
+
+// BEEF POTS
+.cow-wrap {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/cow-wrap-bg.png) no-repeat 50% 50%;
+  background-size: contain;
+  width: 100%;
+  height: 475px;
+  position: relative;
+}
+
+.pig-wrap {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/pig-wrap-bg.png) no-repeat 50% 50%;
+  background-size: contain;
+  width: 100%;
+  height: 475px;
+}
+
+.cow-wrap-pos,
+.pig-wrap-pos {
+  padding-top: 3rem;
+}
+
+.cow-img {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/cow.svg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 92px;
+  height: 79px;
+  margin: 0 auto;
+}
+
+.cow-title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.beef-img-1 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/01.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.beef-img-2 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/02.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.beef-img-3 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/03.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.beef-img-4 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/04.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.beef-img-description,
+.pig-img-description {
+  position: relative;
+}
+
+p.beef-img-description-text,
+p.pig-img-description-text {
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.beef-img-description-text-align-1,
+.beef-img-description-text-align-2,
+.pig-img-description-text-align-1,
+.pig-img-description-text-align-2 {
+  vertical-align: middle;
+  padding: 13px;
+}
+
+.beef-img-description-text-align-3,
+.beef-img-description-text-align-4,
+.pig-img-description-text-align-3,
+.pig-img-description-text-align-4 {
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.beef-img-description-1 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-1.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.beef-img-description-2 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-2.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.beef-img-description-3 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-3.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.beef-img-description-4 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-4.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+// PIG POTS
+.pig-title-wrap {
+  margin-top: 5rem;
+}
+
+.pig-img {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/pig.svg) no-repeat 50% 50%;
+  background-size: contain;
+  width: 92px;
+  height: 79px;
+  margin: 0 auto;
+}
+
+.pig-title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pig-img-5 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/05.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.pig-img-6 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/06.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.pig-img-7 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/07.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.pig-img-8 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/08.png) no-repeat 46% 50%;
+  background-size: cover;
+  width: 252px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.pig-img-description-1 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-1.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.pig-img-description-2 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-2.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.pig-img-description-3 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-3.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.pig-img-description-4 {
+  background: url(/wp-content/themes/grodfoodspicy/dist/images/section-3/img-description-4.svg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 187px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.arrow-top {
+  display: none;
+  width: 46px;
+  height: 46px;
+  max-width: 60px;
+  max-height: 60px;
+  position: fixed;
+  bottom: 90px;
+  right: 14px;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-filter: brightness(170%);
+  filter: brightness(170%);
+}
+
+// MEDIA QUERY
+@media (max-width: 382px) {
+  //.block-2-about-description {
+  //  font-size: 0.7rem;
+  //}
+
+  .block-1 {
+    margin-top: -6.5rem;
+  }
+
+  .block-2-about-col-7-img {
+    right: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .cow-wrap,
+  .pig-wrap {
+    min-height: 1880px;
+  }
+
+  .pig-title-wrap {
+    margin-top: 0;
+  }
+
+  .block-2-title-about,
+  .block-2-title-advantage {
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .block-2-about-col-7-img {
+    right: 3rem;
+  }
+
+  .vegetable-9 {
+    display: none;
+  }
+
+  .vegetable-pot-left {
+    left: -7rem;
+    min-width: 241px !important;
+    max-width: 241px !important;
+    //min-height: 379px !important;
+    //max-height: 379px !important;
+  }
+
+  .vegetable-pot-right {
+    left: 1rem !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    //min-height: 448px !important;
+    //max-height: 448px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .block-2-title-about,
+  .block-2-title-advantage {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .block-1 {
+    margin-top: -6.5rem;
+  }
+
+  .block-2-about-description {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+  }
+
+  .block-2-about-col-7-img {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .block-3-title-first-row,
+  .block-3-title-second-row {
+    margin-left: 0;
+  }
+
+  .block-3-title-third-row {
+    margin-left: 0;
+  }
+
+  .block-3-title-wrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cow-title-wrap {
+    margin-top: 4rem;
+  }
+
+  .block-2-advantage-col-left-img-leafs {
+    right: 17rem;
+    top: 9rem;
+  }
+
+  .block-2-title-about,
+  .block-2-title-advantage {
+    text-align: center;
+  }
+
+  .block-2-wrap-advantage {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .block-2-advantage-col-left-img-leafs {
+    right: 0;
+    top: 12rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .block-2-advantage-col-left-img-right {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .vegetable-pot-left,
+  .vegetable-pot-right {
+    min-width: 448px;
+    min-height: 329px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .block-2-title-about,
+  .block-2-title-advantage {
+    max-width: 745px;
+  }
+
+  .block-2-advantage-col-left-img-left {
+    background: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cow-wrap,
+  .pig-wrap {
+    background: none;
+  }
+
+  .block-2-wrap-advantage {
+    background: none;
+  }
+
+  .block-2-description-advantage-wrap {
+    width: 295px;
+    margin: 2rem auto 0;
+  }
+
+  .cow-wrap-pos,
+  .pig-wrap-pos {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .block-2-title-about,
+  .block-2-title-advantage {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+  .cow-wrap,
+  .pig-wrap {
+    min-height: 1023px;
+  }
+
+  .pig-title-wrap {
+    margin-top: 0;
+  }
+
+  .block-2-about-col-7-img {
+    right: 0;
+  }
+}
+
+@media (max-width: 1279px) {
+  .vegetable-pot-right {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1281px) {
+  .vegetable-3 {
+    left: -7.5rem;
+  }
+
+  .vegetable-4 {
+    top: 10rem;
+  }
+
+  .vegetable-7 {
+    top: 13rem;
+  }
+
+  .vegetable-8 {
+    top: 17rem;
+  }
+
+  .vegetable-12 {
+    top: 19rem;
+  }
+
+  .vegetable-pot-right {
+    top: 3rem;
+    left: 8.5rem;
+  }
+}
+
+@media (max-width: 1367px) {
+  .block-1 {
+    height: 930px;
+  }
+
+  .block-2-wrap-advantage {
+    margin-top: 11rem;
+  }
+
+  .cow-wrap {
+    top: -4rem;
+  }
+
+  .block-1-title-wrap {
+    padding-bottom: 0;
+  }
+
+  .vegetable-3 {
+    left: -9rem;
+  }
+
+  .vegetable-4 {
+    left: -7rem;
+  }
+
+  .vegetable-5 {
+    left: 3rem;
+  }
+
+  .vegetable-6 {
+    left: 0.7rem;
+  }
+
+  .vegetable-8 {
+    top: 18rem;
+  }
+
+  .vegetable-10 {
+    left: 4.5rem;
+  }
+
+  .vegetable-pot-right {
+    top: 4rem;
+    left: 9rem;
+    width: 289px;
+  }
+}
+
+@media (max-width: 1590px) {
+  .cow-wrap,
+  .pig-wrap {
+    background-size: cover;
+  }
+}

@@ -1,0 +1,33 @@
+/* fonts */
+@font-face {
+  font-family: "Lora";
+  src: url("/wp-content/themes/grodfoodspicy/resources/assets/fonts/Lora-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/wp-content/themes/grodfoodspicy/resources/assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+/* COMMON */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: Montserrat, sans-serif;
+  font-size: 100%;
+}
