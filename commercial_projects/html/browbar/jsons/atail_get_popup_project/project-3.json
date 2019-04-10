@@ -1,0 +1,131 @@
+{
+  "status": "success",
+  "title": "Окрашивание и моделирование бровей",
+  "content": "Моделирование и окрашивание бровей<br> от 12.50 до 18.00 BYN;<br>Окрашивание ресничек 6.00 BYN;<br><em>*Стоимость услуг зависит от используемых материалов и практикующего мастерa.</em>",
+  "date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 22 Jun 2016</span></span>",
+  "positions": null,
+  "token": "865fc8f5ec",
+  "participants": "<span class=\"post-content-footer-title\">Participants</span>",
+  "slides": [
+    {
+      "src": {
+        "img": "img/projects/project-3/001.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/002.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/003.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/004.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/005.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/006.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/007.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/008.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/009.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/010.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/011.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-3/012.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    }
+  ]
+}

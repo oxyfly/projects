@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "title": "Курс &laquo;Professional brow artist&raquo;",
+  "content": "<p class=\"project-2-title-main-1\">Почему мы?</p><p class=\"project-2-title-description\"><em style=\"color: red\">Быстро</em> - 2 дня которые позволят в полной мере овладеть профессией бровист;</p><p class=\"project-2-title-description\"><em style=\"color: red\">Оплата</em> - наличный, безналичный расчет, а так же можем разбить платеж на 2 этапа;</p><p class=\"project-2-title-description\"><em style=\"color: red\">Близко</em> - мы находимся в самом центре города, так что никаких проблем с транспортом;</p><p class=\"project-2-title-description\"><em style=\"color: red\">Удобно</em> - согласуем удобное для вас время начала и окончания курсаж</p><p class=\"project-2-title-description\"><em style=\"color: red\">Эффективно</em> - полный комплекс знаний в кратчайшие сроки;</p><p class=\"project-2-title-description\"><em style=\"color: red\">Материал</em> - подберём моделей и предоставим всю профессиональную косметику и инструмент на время занятий.</p><p class=\"project-2-title-main-2\">Информация</p><p class=\"project-2-title-description\">Мастер-бровист - мастер, который создает клиенту подходящую форму брови\n\nпри помощи специальных техник, инструментов и красителей.</p><p class=\"project-2-title-main-2\">Порядок проведения курсов:</p><p>День первый: показываю и рассказываю о технике создания идеальных бровок с помощью краски и гель-краски.<br>День второй: проделываем ту же самую процедуру, но уже с использованием хны.</p><p class=\"project-2-title-main-2\">Процесс обучения:</p><p>- Теоретическое введение в специальность мастера-бровиста;<br>- Прорисуем бровки на бумаге, посмотрим, как это должно быть, после переходим на моделей(по 3 человека ежедневно);<br>- Правильно подбираем форму исходя из внешних данных клиента;<br>- Рассмотриваем типичные ошибки в определении и создании формы брови;<br>- Учимся использовать пасту при построении формы;<br>- Восстанавливаем правильную форму брови, при её повреждении;<br>- Учимся долговременной укладке бровей в 3 этапа;<br>- Осваиваем процесс окрашивания ресничек;<br>- Расскажу об уходе за бровками, до, во время и после процедуры окрашивания; правильном выборе инструмента для работы; санитарно-гигиенических нормах.</p>",
+  "date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 22 Jun 2016</span></span>",
+  "positions": null,
+  "token": "865fc8f5ec",
+  "participants": "<span class=\"post-content-footer-title\">Participants</span>",
+  "slides": [
+    {
+      "src": {
+        "img": "img/projects/project-2/001.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/002.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/003.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/004.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/005.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/006.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/007.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/008.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/009.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/010.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/011.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/012.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/013.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/014.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-2/015.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    }
+  ]
+}

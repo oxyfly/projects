@@ -1,0 +1,939 @@
+.banner-section {
+  height: 718px;
+}
+
+.carousel-item img {
+  float: right;
+}
+
+.carousel-caption {
+  top: 88px;
+}
+
+.carousel-caption-title {
+  color: black;
+  font-family: "Times New Roman", sans-serif;
+  font-size: 74px;
+  text-align: left;
+}
+
+.carousel-indicators {
+  bottom: 120px;
+}
+
+.carousel-indicators li {
+  background-color: red;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.logo-banner-wrap {
+  background: url("/wp-content/themes/browbar/dist/images/logo-banner.svg") no-repeat;
+  width: 169px;
+  height: 150px;
+}
+
+.banner-link-wrap {
+  float: left;
+}
+
+.banner-link {
+  font-size: 24px;
+  text-decoration: none;
+  //text-transform: uppercase;
+  color: red;
+  display: none;
+}
+
+//.banner-link:hover {
+//  text-decoration: none;
+//  color: #b60000;
+//}
+
+.banner-link-wrap::before {
+  background: url("/wp-content/themes/browbar/dist/images/misc/line.png") no-repeat 100% 100%;
+  position: absolute;
+  content: "";
+  width: 125px;
+  height: 2px;
+  bottom: 237px;
+  //left: 160px;
+}
+
+.section-services {
+  height: 362px;
+  position: relative;
+  top: -87px;
+  max-width: 1363px;
+  margin: 0 auto;
+}
+
+.service-wrap-col {
+  display: flex;
+}
+
+.service-wrap {
+  width: 312px;
+  height: 352px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.service-img-1 {
+  background: url("/wp-content/themes/browbar/dist/images/section-services/1.png") no-repeat;
+  width: 280px;
+  height: 195px;
+  margin: 0 auto;
+  position: relative;
+  top: 16px;
+}
+
+.service-img-2 {
+  background: url("/wp-content/themes/browbar/dist/images/section-services/2.png") no-repeat;
+  width: 280px;
+  height: 195px;
+  margin: 0 auto;
+  position: relative;
+  top: 16px;
+}
+
+.service-img-3 {
+  background: url("/wp-content/themes/browbar/dist/images/section-services/3.png") no-repeat;
+  width: 280px;
+  height: 195px;
+  margin: 0 auto;
+  position: relative;
+  top: 16px;
+}
+
+.service-img-4 {
+  background: url("/wp-content/themes/browbar/dist/images/section-services/4.png") no-repeat;
+  width: 280px;
+  height: 195px;
+  margin: 0 auto;
+  position: relative;
+  top: 16px;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  height: 47px;
+}
+
+.btn-outline-danger,
+.button-service {
+  width: 198px;
+  height: 44px;
+  font-size: 14px;
+}
+
+.btn {
+  border-radius: 24px;
+  border: 2px solid #dc3545;
+}
+
+.button-service {
+  margin: 0 auto;
+}
+
+.photo-slider,
+.photo-slider-wrap,
+.photo-slider-images {
+  margin-top: 83px;
+  height: 373px;
+}
+
+.photo-slider-images img {
+  height: 373px;
+}
+
+.price {
+  margin-top: 83px;
+  height: 650px;
+}
+
+.price-title {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.price-description {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #818181;
+}
+
+.prices {
+  height: 500px;
+  max-width: 1400px;
+  margin: 26px auto 0;
+}
+
+.price-wrap-1 {
+  width: 360px;
+  height: 404px;
+}
+
+.price-wrap-2 {
+  width: 360px;
+  height: 227px;
+}
+
+.price-wrap-3 {
+  width: 360px;
+  height: 500px;
+}
+
+.price-wrap {
+  margin: 0 auto;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding-top: 16px;
+}
+
+.price-title-name {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+.price-items-1 {
+  width: 300px;
+  height: 263px;
+  margin: 44px auto 0;
+}
+
+.price-items-2 {
+  width: 300px;
+  height: 120px;
+  margin: 44px auto 0;
+}
+
+.price-items-3 {
+  width: 300px;
+  height: 365px;
+  margin: 44px auto 0;
+}
+
+.price-item {
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.price-item-value {
+  font-weight: 600;
+  font-size: 14px;
+  float: right;
+}
+
+.contacts {
+  height: 260px;
+}
+
+.contacts-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 42px;
+}
+
+.contacts-col-name {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #dc3545;
+}
+
+.contacts-col-description {
+  color: #818181;
+  text-align: center;
+  font-size: 12px;
+}
+
+// SERVICE PAGES
+
+// page 1
+.service-page-banner {
+  width: 100%;
+  height: 359px;
+}
+
+.banner-img-2 {
+  background: url("/wp-content/themes/browbar/dist/images/banner-2.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 359px;
+}
+
+.banner-img-3 {
+  background: url("/wp-content/themes/browbar/dist/images/banner-3.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 359px;
+}
+
+.banner-img-4 {
+  background: url("/wp-content/themes/browbar/dist/images/banner-4.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 359px;
+}
+
+.banner-img-5 {
+  background: url("/wp-content/themes/browbar/dist/images/banner-5.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 359px;
+}
+
+.service-page-banner-wrap {
+  width: 500px;
+  position: relative;
+  top: 27%;
+  left: 10%;
+}
+
+.service-page-banner-title {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 48px;
+  width: 500px;
+  font-weight: 600;
+}
+
+.price-okrashivanie {
+  height: 421px;
+}
+
+.price-vecherniy {
+  height: 520px;
+}
+
+.photo-slider-services {
+  height: 509px;
+}
+
+.photo-slider-services,
+.photo-slider-wrap-services {
+  margin-top: 0;
+}
+
+.photo-slider-services-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+.photo-slider-images-services {
+  margin-top: 40px;
+}
+
+.price-wrap-2-vecherniy {
+  height: 311px;
+}
+
+.price-items-2-vecherniy {
+  height: 197px;
+}
+
+.our-students {
+  height: 1200px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.our-students-title-main {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.our-students-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 42px;
+}
+
+.our-student-img-wrap {
+  width: 310px;
+  height: 310px;
+  margin: 0 auto 20px;
+  border-radius: 16px;
+}
+
+.example-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.why-we {
+  max-width: 1297px;
+  height: 430px;
+  margin: 0 auto;
+  position: relative;
+  left: -3.5%;
+}
+
+.why-we-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.why-we-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
+.why-we-card-1 {
+  width: 372px;
+  height: 372px;
+  z-index: 6;
+  background-color: #fff;
+}
+
+.why-we-card-2 {
+  width: 350px;
+  height: 350px;
+  z-index: 5;
+  background-color: #f5f5f5;
+}
+
+.why-we-card-3 {
+  width: 340px;
+  height: 340px;
+  z-index: 4;
+  background-color: #f5f5f5;
+}
+
+.why-we-card-4 {
+  width: 330px;
+  height: 330px;
+  z-index: 3;
+  background-color: #f5f5f5;
+}
+
+.why-we-card-5 {
+  width: 320px;
+  height: 320px;
+  z-index: 2;
+  background-color: #f5f5f5;
+}
+
+.why-we-card-6 {
+  width: 310px;
+  height: 310px;
+  z-index: 1;
+  background-color: #f5f5f5;
+}
+
+.why-we-card-2:hover,
+.why-we-card-3:hover,
+.why-we-card-4:hover,
+.why-we-card-5:hover,
+.why-we-card-6:hover {
+  z-index: 10;
+  cursor: pointer;
+}
+
+.why-we-img {
+  margin: 20px auto 0;
+}
+
+.why-we-img-1 {
+  background: url("/wp-content/themes/browbar/dist/images/why-we/001.png") no-repeat center center;
+  width: 214px;
+  height: 214px;
+}
+
+.why-we-img-2 {
+  background: url("/wp-content/themes/browbar/dist/images/why-we/002.png") no-repeat center center;
+  width: 214px;
+  height: 214px;
+}
+
+.why-we-img-3 {
+  background: url("/wp-content/themes/browbar/dist/images/why-we/003.png") no-repeat center center;
+  width: 214px;
+  height: 214px;
+}
+
+.why-we-img-4 {
+  background: url("/wp-content/themes/browbar/dist/images/why-we/004.png") no-repeat center center;
+  width: 214px;
+  height: 214px;
+}
+
+.why-we-img-5 {
+  background: url("/wp-content/themes/browbar/dist/images/why-we/005.png") no-repeat center center;
+  width: 214px;
+  height: 214px;
+}
+
+.why-we-img-6 {
+  background: url("/wp-content/themes/browbar/dist/images/why-we/006.png") no-repeat center center;
+  width: 214px;
+  height: 214px;
+}
+
+.why-we-card-title-1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.why-we-card-description-1 {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.why-we-card-title-2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.why-we-card-description-2 {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.why-we-card-title-3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.why-we-card-description-3 {
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.why-we-card-title-4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.why-we-card-description-4 {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.why-we-card-title-5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.why-we-card-description-5 {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.why-we-card-title-6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 10px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.why-we-card-description-6 {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.info-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.info-description-common,
+.info-description-order {
+  font-size: 12px;
+  text-align: center;
+}
+
+.info-description-order {
+  font-weight: bold;
+}
+
+.info-description-order-wrap {
+  max-width: 1035px;
+  margin: 90px auto 100px;
+}
+
+.info-description-order-1,
+.info-description-order-2 {
+  width: 650px;
+  height: 90px;
+  margin-left: 32px;
+}
+
+.info-description-order-1-text-left,
+.info-description-order-2-text-left {
+  font-weight: 600;
+  font-size: 64px;
+  text-align: center;
+  color: #fc3936;
+  float: left;
+}
+
+.info-description-order-1-text-left-day,
+.info-description-order-2-text-left-day {
+  font-size: 18px;
+}
+
+.info-description-order-1-text-right,
+.info-description-order-2-text-right {
+  font-size: 12px;
+  text-align: left;
+  padding-top: 23px;
+  padding-left: 120px;
+}
+
+.information-item {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 39px;
+  margin-top: 39px;
+}
+
+.information-item-separator {
+  max-width: 610px;
+  margin: 0 auto;
+  background-color: red;
+  opacity: 0.4;
+}
+
+.full-cost {
+  font-size: 12px;
+  text-align: center;
+  margin: 78px 0;
+}
+
+.curs-master-wrap {
+  max-width: 1547px;
+  margin: 0 auto;
+}
+
+.curs-master-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.curs-master-item {
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.curs-master-item::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #fc3936;
+  border-radius: 50%;
+  left: 2px;
+  top: 4px;
+}
+
+.curs-master-last-item {
+  margin-bottom: 117px;
+}
+
+.yButtonWave {
+  color: red !important;
+}
+
+.yButtonBackground {
+  background-color: red !important;
+}
+
+.yButton:hover {
+  background-color: #b20000 !important;
+  border-radius: 50%;
+}
+
+.swal-button {
+  background-color: red;
+}
+
+.swal-button:hover {
+  background-color: #b20000 !important;
+}
+
+// MEDIA QUERY
+@media (max-width: 495px) {
+  .info-description-order-2 {
+    margin: 30px auto 90px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .photo-slider {
+    position: relative !important;
+    top: -87px !important;
+  }
+
+  .price {
+    min-height: 1265px;
+  }
+
+  .contacts {
+    height: 390px;
+  }
+
+  .price-wrap {
+    max-width: 345px;
+  }
+
+  .info-description-order-1 {
+    margin-left: 0;
+  }
+
+  .info-description-order-1-text-right,
+  .info-description-order-2-text-right {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .price,
+  .price-title {
+    margin-top: 0;
+  }
+
+  .price-okrashivanie {
+    min-height: 530px;
+  }
+
+  .photo-slider-vecher-i-svadeb-pos {
+    top: 0 !important;
+  }
+
+  .why-we {
+    left: 0 !important;
+  }
+
+  .why-we-card {
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    overflow-x: hidden;
+  }
+
+  //.banner-link-wrap::after {
+  //  display: none;
+  //}
+
+  .carousel-caption-title {
+    font-size: 54px !important;
+  }
+
+  .section-services {
+    min-height: 1430px !important;
+  }
+
+  .service-page-banner
+  /*.our-students*/ {
+    display: none;
+  }
+
+  .our-students {
+    height: 1900px !important;
+  }
+
+  .our-student-photo-mobile-hide {
+    display: none;
+  }
+
+  //.service-page-banner-wrap {
+  //  max-width: 290px;
+  //}
+  //
+  //.service-page-banner-title {
+  //  font-size: 36px;
+  //  max-width: 290px;
+  //}
+
+  .price-wrap {
+    max-width: 320px;
+  }
+
+  .price-title,
+  .photo-slider-services-title {
+    font-size: 28px;
+  }
+
+  .why-we {
+    min-height: 2200px !important;
+  }
+
+  .why-we-card {
+    width: 330px;
+  }
+
+  //.why-we-card-2 {
+  //  width: 344px;
+  //}
+
+  .curs-mobile-adaptive-block {
+    display: flex;
+  }
+
+  .info-description-order-1 {
+    margin-bottom: 135px;
+  }
+
+  .info-description-order-1-text-left,
+  .info-description-order-2-text-left {
+    float: none;
+  }
+
+  .info-description-order-1-text-right,
+  .info-description-order-2-text-right {
+    padding-top: 0;
+  }
+
+  .info-description-order-2 {
+    margin: 0 auto 90px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .location-wrap,
+  .phone-wrap,
+  .time-wrap {
+    display: none;
+  }
+
+  .section-services {
+    min-height: 740px;
+  }
+
+  .photo-slider {
+    position: relative;
+    top: -87px;
+  }
+
+  .price-wrap {
+    max-width: 345px;
+  }
+
+  .info-description-order-1,
+  .info-description-order-2 {
+    margin: 0 auto;
+    padding-left: 119px;
+  }
+
+  //.prices {
+  //  min-height: 1160px;
+  //}
+
+  .contacts {
+    min-height: 400px;
+  }
+
+  .price {
+    min-height: 1270px;
+    margin-top: 0;
+  }
+
+  .price-title {
+    margin-top: 0;
+  }
+
+  .photo-slider-okr-i-mod-pos,
+  .photo-slider-vecher-i-svadeb-pos {
+    top: 0;
+  }
+
+  .price-title-okr-i-mod-pos,
+  .price-title-vecherniy-pos {
+    margin-top: 50px;
+  }
+
+  .our-students {
+    height: 2188px;
+  }
+
+  .why-we {
+    left: 0 !important;
+    min-height: 1150px;
+  }
+
+  .why-we-card {
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1367px) {
+  .why-we {
+    max-width: 1140px;
+    left: -5.5%;
+  }
+}
+
+@media (max-width: 1281px) {
+  .why-we {
+    max-width: 1024px;
+    left: -5.8%;
+  }
+}

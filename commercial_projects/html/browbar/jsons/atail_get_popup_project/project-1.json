@@ -1,0 +1,61 @@
+{
+  "status": "success",
+  "title": "Салон красоты Brow Bar",
+  "content": "Салон красоты",
+  "date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 22 Jun 2016</span></span>",
+  "positions": null,
+  "token": "865fc8f5ec",
+  "participants": "<span class=\"post-content-footer-title\">Participants</span>",
+  "slides": [
+    {
+      "src": {
+        "img": "img/projects/project-1/001.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-1/002.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-1/003.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-1/004.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-1/005.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    }
+  ]
+}

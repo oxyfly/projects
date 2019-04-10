@@ -1,0 +1,131 @@
+{
+  "status": "success",
+  "title": "Вечерний и свадебный макияж",
+  "content": "Макияж вечерний от 35.00 до 59.50 BYN;<br>Макияж свадебный от 60.00 до 84.50 BYN;<br><em>*Стоимость макияжа зависит от практикующего мастера и используемых материалов;</em><br>Осуществляем выезд на дом, как по городу Гродно, так и за его пределы:<br>- стоимость выезда по городу от 10 BYN до 12.50 BYN;<br>- в том случае, если выезд осуществляется за пределы города Гродно, к стоимости добавляются транспортные затраты.",
+  "date": "<span class=\"atail-project-date\"><span class=\"atail-proj-date-text\">Finished </span><span class=\"atail-proj-date-value\">- 02 Jul 2016</span></span>",
+  "positions": null,
+  "token": "865fc8f5ec",
+  "participants": "<span class=\"post-content-footer-title\">Participants</span>",
+  "slides": [
+    {
+      "src": {
+        "img": "img/projects/project-4/001.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/002.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/003.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/004.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/005.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/006.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/007.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/008.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/009.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/010.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/011.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "img/projects/project-4/012.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    }
+  ]
+}
